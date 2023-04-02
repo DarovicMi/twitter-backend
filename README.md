@@ -1,28 +1,34 @@
-Twitter Clone
+# Twitter Web Application 
+• Created a Twitter-type software for exchanging ideas through tweets
 
-Description:
-A system was developed which will allow users to post
-a tweet, 
-share a tweet, 
-like a tweet and add comments to a tweet.
+• Allowed users to post, edit, and delete tweets
 
-Developed functions:
-Account registration, 
-Verifying the account
-via gmail, Authentication, 
-Profile page, 
-Ability to change password
-or reset password using gmail, 
-Feed where tweets will be displayed
-sorted by the most recent, 
-liking a tweet, 
-commenting on a tweet,
-sharing a tweet.
+• Included functionality for replying, liking, and sharing tweets
 
-Used technologies:
+• Integrated a real-time feed with tweets sorted by most recent
 
-Frontend - HTML5, CSS3, TypeScript, Angular 13,
-Angular Material
+# Functionalities:
 
-Backend - Java, Spring Boot, Spring Data JPA, Spring
-Security, Spring Web, MySQL
+• User registration, verification, and authentication
+
+• Profile customization: picture, bio, and personal info
+
+• Composing tweets with character limits
+
+• Replying, liking, and sharing tweets
+
+• Custom alerts for app operation validation
+
+• Notifications System for new tweets
+
+The project used MVC architecture with Basic Authentication for security and an 
+Observer design pattern for the notifications system. 
+
+# Key technologies:
+
+Backend: Java, Spring Boot, Spring Data JPA, Spring Security, Spring MVC, JavaMail API
+
+Database: MySQL
+
+Frontend: HTML5, CSS3, Javascript
+
